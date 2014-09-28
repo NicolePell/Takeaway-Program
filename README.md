@@ -2,22 +2,22 @@ Takeaway
 ========
 This is a Takeaway program which includes the following:
 
-[ ] List of dishes with prices
-[ ] Placing an order 
-[ ] with quantities
-[ ] and price 
-[ ] which can return a total
-[ ] Be able to send a message
+- [ ] List of dishes with prices
+- [ ] Placing an order 
+- [ ] with quantities
+- [ ] and price 
+- [ ] which can return a total
+- [ ] Be able to send a message
 
 
 Classes
 =======
-[ ] Dishes
-[ ] Menu
-[ ] Order
-[ ] Line item
-[ ] Takeaway
-[ ] Customer
+- [ ] Dishes
+- [ ] Menu
+- [ ] Order
+- [ ] Line item
+- [ ] Takeaway
+- [ ] Customer
 
 Languages, Programs and Technologies 
 =========================
