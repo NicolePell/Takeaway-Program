@@ -2,7 +2,7 @@ require 'dishes'
 
 describe Dishes do
 
-	let(:dishes) { Dishes.new(0) }
+	let(:dishes) { Dishes.new(price,name) }
 	let(:ctb) { Dishes.chicken_teriyaki_bento }
 	let(:tr) { Dishes.tonkotsu_ramen }
 	let(:ms) { Dishes.miso_soup }

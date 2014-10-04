@@ -2,7 +2,7 @@ Takeaway
 ========
 This is a Takeaway program which includes the following:
 
-- [ ] List of dishes with prices
+- [x] List of dishes with prices
 - [ ] Placing an order 
 - [ ] with quantities
 - [ ] and price 
@@ -12,8 +12,8 @@ This is a Takeaway program which includes the following:
 
 Classes
 =======
-- [ ] Dishes
-- [ ] Menu
+- [x] Dishes
+- [x] Menu
 - [ ] Order
 - [ ] Line item
 - [ ] Takeaway
