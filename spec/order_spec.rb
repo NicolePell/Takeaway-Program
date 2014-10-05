@@ -6,6 +6,7 @@ describe Order do
 	let(:dish) { double :dish }
 	let(:sushi_line) { double :line_item, dish: :sushi, quantity: 1, subtotal: 12 }
 	let(:miso_line) { double :line_item, dish: :miso, quantity: 2, subtotal: 10.90 }
+	let(:customer) { double :customer }
 	
 	it 'should be able to hold line items' do
 		expect(order.total_order).to eq([])
@@ -27,6 +28,10 @@ describe Order do
 		order.add_to_order(sushi_line)
 		order.add_to_order(miso_line)
 		expect(order.total_order_cost).to eq(22.90)
+	end
+
+	it 'should be able to link to a customer' do
+		expect(order.add_customer(customer)).not_to be nil
 	end
 
 end

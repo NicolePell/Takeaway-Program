@@ -1,6 +1,6 @@
 class Order
 
-	attr_reader :total_order
+	attr_accessor :total_order, :customer, :name, :number
 
 	def initialize
 		@total_order = []
@@ -12,6 +12,10 @@ class Order
 
 	def total_order_cost
 		total_order.inject(0) { |sum, dish| sum + dish.subtotal }
+	end
+
+	def add_customer(customer)
+		customer = Customer.new(name, number)
 	end
 
 end
