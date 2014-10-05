@@ -3,10 +3,10 @@ Takeaway
 This is a Takeaway program which includes the following:
 
 - [x] List of dishes with prices
-- [ ] Placing an order 
-- [ ] with quantities
-- [ ] and price 
-- [ ] which can return a total
+- [x] Placing an order 
+- [x] with quantities
+- [x] and price 
+- [x] which can return a total
 - [ ] Be able to send a message
 
 
@@ -14,8 +14,8 @@ Classes
 =======
 - [x] Dishes
 - [x] Menu
-- [ ] Order
-- [ ] Line item
+- [x] Order
+- [x] Line item
 - [ ] Takeaway
 - [ ] Customer
 
@@ -34,55 +34,54 @@ Dishes
 ------
 Responsibilities|Collaborators
 ----------------|-------------
-Include a name|Menu
-Include a price|Line item
-Include ingredients|
+[x]Include a name|Menu
+[x]Include a price|Line item
 
 Menu
 ------
 Responsibilities|Collaborators
 ----------------|-------------
-List of dishes|Dishes
-with prices|Order
+[x]List of dishes|Dishes
+[x]with prices|
 
 Order
 ------
 Responsibilities|Collaborators
 ----------------|-------------
-Be able to show chosen dishes|Line item
-Be able to show quantities|Menu
-Be able to show prices|Customer
-Be able to calculate total price|
-Include customer details|
+[x]Be able to show chosen dishes|Line item
+[x]Be able to show quantities|Customer
+[x]Be able to show prices|
+[x]Be able to calculate total price|
+[ ]Include customer details|
 
 
 Line item
 ----------
 Responsibilities|Collaborators
 ----------------|-------------
-Show dish name|Dishes
-Show price for dish|Order
+[x]Show dish name|Dishes
+[x]Show price for dish|Order
 
 
 Takeaway
 ----------
 Responsibilities|Collaborators
 ----------------|-------------
-Be able to take an order|Menu
-Be able to confirm an order|Order
-Send text confirmation to customer|Customer
+[ ]Be able to take an order|Order
+[ ]Be able to confirm an order|Customer
+[ ]Send text confirmation to customer|
 
 Customer
 ----------
 Responsibilities|Collaborators
 ----------------|-------------
-Be able to place an order|Takeaway
-Provide customer details|Order
+[ ]Be able to place an order|Takeaway
+[ ]Provide customer details|Order
 
 Message
 -------
 Responsibilities|Collaborators
 ----------------|-------------
-Include customer details|Customer
-Include order details|Order
-Communicate with twilio|
+[ ]Include customer details|Customer
+[ ]Include order details|Order
+[ ]Communicate with twilio|
