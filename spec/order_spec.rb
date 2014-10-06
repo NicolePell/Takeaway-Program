@@ -17,11 +17,9 @@ describe Order do
 	end
 
 	it 'should be able to hold more than one line item' do
-		line1 = sushi_line
-		line2 = miso_line
-		order.add_to_order(line1)
-		order.add_to_order(line2)
-		expect(order.total_order).to eq([line1, line2])	
+		order.add_to_order(sushi_line)
+		order.add_to_order(miso_line)
+		expect(order.total_order).to eq([sushi_line, miso_line])	
 	end
 
 	it 'should be able to calculate a total for the order' do
