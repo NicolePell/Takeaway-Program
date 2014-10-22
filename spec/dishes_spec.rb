@@ -1,13 +1,13 @@
 require 'dishes'
 
-describe Dishes do
+describe Dish do
 
-	let(:dishes) { Dishes.new(price,name) }
-	let(:ctb) { Dishes.chicken_teriyaki_bento }
-	let(:tr) { Dishes.tonkotsu_ramen }
-	let(:ms) { Dishes.miso_soup }
-	let(:ss) { Dishes.sushi_selection }
-	let(:wb) { Dishes.wagyu_beef }
+	let(:dishes) { Dish.new(price,name) }
+	let(:ctb) { Dish.chicken_teriyaki_bento }
+	let(:tr) { Dish.tonkotsu_ramen }
+	let(:ms) { Dish.miso_soup }
+	let(:ss) { Dish.sushi_selection }
+	let(:wb) { Dish.wagyu_beef }
 	
 	context 'on initialize' do
 
@@ -19,8 +19,6 @@ describe Dishes do
 			expect(ctb.name).to eq("Chicken Teriyaki Bento")
 		end 
 
-		# it 'a dish can have ingredients' do
-		# end
 	end
 
 	context 'different types of dishes' do

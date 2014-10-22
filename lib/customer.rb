@@ -7,9 +7,6 @@ class Customer
 		@number = number
 	end
 
-
-
-
-
-
 end
+
+

@@ -12,7 +12,5 @@ describe Customer do
 		expect(customer.number).to eq +447585309858
 	end
 
-
-	
 end
 

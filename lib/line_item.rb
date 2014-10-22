@@ -1,12 +1,14 @@
 class LineItem
 
-	attr_accessor :quantity, :subtotal, :dish
+	attr_accessor :dish, :quantity
 
 	def initialize(dish, quantity)
 		@dish = dish
 		@quantity = quantity	
-		@subtotal = dish.price * quantity	
 	end
 
+	def subtotal
+		@dish.price * @quantity	
+	end
 
 end

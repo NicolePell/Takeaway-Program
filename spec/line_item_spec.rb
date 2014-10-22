@@ -3,7 +3,7 @@ require 'line_item'
 describe LineItem do
 
 	let(:line_item) { LineItem.new(miso, 3) }
-	let(:miso) { double :miso, name: :miso_soup, :price => 5.95 }	
+	let(:miso) { double :miso, name: :miso_soup, price: 5.95 }	
 	
 	it 'should show a dish name' do
 		expect(line_item.dish.name).to eq(:miso_soup)
