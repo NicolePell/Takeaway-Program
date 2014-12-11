@@ -1,5 +1,7 @@
 Takeaway
 ========
+This is our week 2 challenge at Makers Academy.
+
 This is a Takeaway program which includes the following:
 
 - [x] List of dishes with prices
@@ -9,6 +11,38 @@ This is a Takeaway program which includes the following:
 - [x] which can return a total
 - [x] Be able to send a message
 
+
+Technologies used
+=================
+- Ruby
+- Rspec
+- Twilio Gem
+
+How to use
+==========
+Clone the repository:
+```shell
+$ git clone https://github.com/NicolePell/Takeaway-Program.git
+```
+
+Change into the directory:
+```shell
+$ cd Takeaway-Program
+```
+
+Sign up for a free Twilio account
+
+Run tests:
+```shell
+$ rspec
+```
+
+Run in IRB/PRY:
+```shell
+$ irb
+> require './runner'
+```
+
 Classes
 =======
 - [x] Dishes
@@ -16,15 +50,7 @@ Classes
 - [x] Order
 - [x] Line item
 - [x] Customer
-
-Languages, Programs and Technologies
-=========================
-- Ruby
-- Rspec
-- Sublime Text
-- Terminal
-- Twilio
-- Github
+- [x] Message
 
 Domain Model and CRC
 ====================
