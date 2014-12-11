@@ -8,5 +8,3 @@ class Customer
 	end
 
 end
-
-

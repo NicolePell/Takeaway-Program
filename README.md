@@ -3,12 +3,11 @@ Takeaway
 This is a Takeaway program which includes the following:
 
 - [x] List of dishes with prices
-- [x] Placing an order 
+- [x] Placing an order
 - [x] with quantities
-- [x] and price 
+- [x] and price
 - [x] which can return a total
-- [ ] Be able to send a message
-
+- [x] Be able to send a message
 
 Classes
 =======
@@ -16,10 +15,9 @@ Classes
 - [x] Menu
 - [x] Order
 - [x] Line item
-- [ ] Takeaway
-- [ ] Customer
+- [x] Customer
 
-Languages, Programs and Technologies 
+Languages, Programs and Technologies
 =========================
 - Ruby
 - Rspec
@@ -62,26 +60,17 @@ Responsibilities|Collaborators
 [x]Show dish name|Dishes
 [x]Show price for dish|Order
 
-
-Takeaway
-----------
-Responsibilities|Collaborators
-----------------|-------------
-[ ]Be able to take an order|Order
-[ ]Be able to confirm an order|Customer
-[ ]Send text confirmation to customer|
-
 Customer
 ----------
 Responsibilities|Collaborators
 ----------------|-------------
-[ ]Be able to place an order|Takeaway
-[ ]Provide customer details|Order
+[x]Be able to place an order|Takeaway
+[x]Provide customer details|Order
 
 Message
 -------
 Responsibilities|Collaborators
 ----------------|-------------
-[ ]Include customer details|Customer
-[ ]Include order details|Order
-[ ]Communicate with twilio|
+[x]Include customer details|Customer
+[x]Include order details|Order
+[x]Communicate with twilio|
