@@ -4,7 +4,6 @@ class Menu
 
 	def initialize
 		@dishes = [Dish.chicken_teriyaki_bento, Dish.tonkotsu_ramen, Dish.miso_soup, Dish.sushi_selection, Dish.wagyu_beef]
-		# @dishes = []
 	end
 
 	def add(dish)
@@ -19,7 +18,3 @@ class Menu
 	end
 
 end
-
-
-# '1. Chicken ...........£ 4.5
-#  2. Miso Soup .........£ 4.6'
